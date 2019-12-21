@@ -55,7 +55,7 @@ class Game extends React.Component {
 		let { score, sliderValue, grid } = this.state;
 
 		//Marks will be given if slider is between 40 & 60
-		if (sliderValue > 20 && sliderValue < 80) {
+		if (sliderValue > 40 && sliderValue < 60) {
 			score += 10;
 			const currentPosition = grid.findIndex(value => value === true);
 
