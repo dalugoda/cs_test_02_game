@@ -10,8 +10,7 @@ class Game extends React.Component {
 			sliderValue: 0,
 			grid: Array(9).fill(null),
 			score: 0,
-			counterIncrement: 1,
-			won: true
+			counterIncrement: 1
 		};
 	}
 
