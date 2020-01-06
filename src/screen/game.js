@@ -29,7 +29,7 @@ class Game extends React.Component {
 	}
 
 	startAnimation() {
-		this.interval = setInterval(this.animationTimer, 10);
+		this.interval = setInterval(this.animationTimer, 20);
 	}
 
 	//Clear Timer on exit
@@ -70,7 +70,7 @@ class Game extends React.Component {
 				setTimeout(() => {
 					this.resetGrid();
 					this.setState({ score: 0 });
-				}, 3000);
+				}, 2000);
 			}
 		} else {
 			//Else reset the player to first box
